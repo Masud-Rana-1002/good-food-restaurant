@@ -23,6 +23,33 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   
+}
+li{
+    list-style: none;
+    background: transparent;
+    border: 1px solid rgba(250, 245, 245, 0.436);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 30px;
+    
+    
+}
+li:hover{
+    background: rgb(82, 195, 3);
+    transition:  1s;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 header {
     background: linear-gradient(00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
@@ -184,4 +211,14 @@ padding: 30px 10px;
 }
 .so-icon img{
     width: 100%;
+}
+/* footer section start */
+footer{
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 130px 0px;
+    background: linear-gradient(00deg, rgba(255, 255, 255, 0.801) -19.5%, rgba(255, 255, 255, 0.729) 100%), url("../assets/social-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
