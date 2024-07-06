@@ -1,0 +1,64 @@
+/* google font link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans";
+}
+
+.btn {
+    padding: 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border:none ;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+body {
+    max-width: 1920px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    ;
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    gap: 20px;
+}
+
+.hero-sub-taitel {
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.hero-taitel {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-description {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+}
