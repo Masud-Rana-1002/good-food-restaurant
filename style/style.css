@@ -15,7 +15,7 @@
     color: white;
     font-size: 20px;
     font-weight: 600;
-   
+
 }
 
 body {
@@ -88,20 +88,24 @@ header {
     font-weight: 700;
     margin: 16px auto;
 }
-.card-section{
+
+.card-section {
     display: flex;
     justify-content: space-between;
 }
+
 .card {
     width: 400px;
     color: rgb(16, 16, 16);
     text-align: center;
     margin-top: 48px;
-    border: 1px solid  rgba(16, 16, 16, 0.6);
+    border: 1px solid rgba(16, 16, 16, 0.6);
     border-radius: 10px;
     padding: 5px;
+    box-shadow: 15px 12px 50px;
 
 }
+
 .card-img>img {
     width: 100%;
 }
@@ -116,18 +120,69 @@ header {
     padding: 14px 32px;
 
 }
-.offer{
+
+.offer {
     font-size: 40px;
     font-weight: 600;
 
 }
-.card-description{
-font-weight: 500;
-line-height: 28px;
-margin: 24px 0px;
+
+.card-description {
+    font-weight: 500;
+    line-height: 28px;
+    margin: 24px 0px;
 }
-.favorite-brands-btn{
+
+.favorite-brands-btn {
     text-align: center;
     margin: 64px auto;
 }
+
 /* Favorite brands section style end */
+/* about us section atyle start */
+.about {
+    max-width: 1320px;
+    width: 100%;
+    margin: 80px auto;
+    color: rgb(16, 16, 16);
+    text-align: center;
+    display: flex;
+
+}
+.about-img >img{
+    width: 100%;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.about-content>h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.about-content> .about-description {
+
+font-size: 24px;
+font-weight: 500;
+opacity: 0.6;
+}
+.follow{
+font-size: 32px;
+font-weight: 600;
+width: 100%;
+opacity: 0.7;
+border-top: 1px solid rgba(16, 16, 16, 0.2) ;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2) ;
+padding: 30px 10px;
+}
+.so-icon{
+    display: flex;
+    width: 150px;
+    gap:9px ;
+}
+.so-icon img{
+    width: 100%;
+}
